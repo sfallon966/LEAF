@@ -155,7 +155,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/sfallon966/LEAF/main/LEAF%20Files%20for%20Students/17-Valencia-Ort.xml?place_annotation_20241105150117354#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/head[2]/placeName[2]"
+			"rdf:value": "TEI/text/body/div/head[2]/placeName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -172,12 +172,93 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/sfallon966/LEAF/main/LEAF%20Files%20for%20Students/17-Valencia-Ort.xml?place_annotation_20241105150248352",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-05T20:02:48.352Z",
+	"dcterms:modified": "2024-11-05T20:02:48.352Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/sfallon966",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sean Fallon"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/sfallon966/LEAF/main/LEAF%20Files%20for%20Students/17-Valencia-Ort.xml?place_annotation_20241105150248352#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/sfallon966/LEAF/main/LEAF%20Files%20for%20Students/17-Valencia-Ort.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/sfallon966/LEAF/main/LEAF%20Files%20for%20Students/17-Valencia-Ort.xml?place_annotation_20241105150248352#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/head[2]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q29",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/17-Valencia-Ort-1.jpg"/>
 			<div>
-				<head>Valencia. </head><head>The Kingdome of <placeName key="Province of Valencia" ref="http://www.wikidata.org/entity/Q54939" cert="medium">Valencia<precision match="@ref" precision="medium"/></placeName> bordereth on the caſt ſyde vpon the Mediteraneam ſea, &amp; is on all other ſydes enuyroned with other countries of Spaine. The chief citie of this realme is alſo called <placeName key="Province of Valencia" ref="http://www.wikidata.org/entity/Q54939">Valencia</placeName>, &amp; of this citie the whole country takerh name. Some authors do witnes it receaued the name of a Kingdome in the year of our Lord 162. There are two principal mountaines in this country , the one called Maviola, the other Penera Golafa, which do produce many ſortes of medicinal herbes, for which canſe diuers phiſitions &amp; apothecaries repaire the-ther for ſimples. There is in this country at a place called in the ſpaniſh tongue Suriol, a myne of filtter. And in a place called Aioder there are ſtones found ſtryped with golden vaines. At the promontorie of Finiſtrat are cerraine mynes of iron, though of no abundance. About Segorbie is a quarry out of which marble iu tymes paſt was taken &amp; ſent to Rome. In Piscene Alabaſter is, &amp; in ſundry places great ſtore of Allum, Red-Ocher, Lyme &amp; Chalk. This country yeildeth fyne wool, which (as in ſaid) cometh of the race of cotſold ſheepe tranſported out of England into Spaine by licence of King Edvvard the fourth in the ſite year of his raigne. There is great comoditie made in the country by the making of certaine earthen veſſels which the Spagniards call Pyrocellana.  This country was long inhabited of the Moores, yntil at laſt King Iames after a long ſiege conſtrayned them to leaue the citie of Valencia, out of which there departed at once more than fyfty thowſand in number, who caried with them all their riches, &amp; left the citie voyd, both of people and welth. There is not (as is thought) any corner of the world ſo repleniſhed with godly gardens, abounding with ſuch rare &amp; excellent flowres &amp; herbes, as is this countrie of Valencia. </head></div>
+				<head>Valencia. </head><head>The Kingdome of <placeName key="Province of Valencia" ref="http://www.wikidata.org/entity/Q54939" cert="medium">Valencia<precision match="@ref" precision="medium"/></placeName> bordereth on the caſt ſyde vpon the Mediteraneam ſea, &amp; is on all other ſydes enuyroned with other countries of <placeName key="Spain" ref="http://www.wikidata.org/entity/Q29" cert="high">Spaine<precision match="@ref" precision="high"/></placeName>. The chief citie of this realme is alſo called <placeName key="Province of Valencia" ref="http://www.wikidata.org/entity/Q54939">Valencia</placeName>, &amp; of this citie the whole country takerh name. Some authors do witnes it receaued the name of a Kingdome in the year of our Lord 162. There are two principal mountaines in this country , the one called Maviola, the other Penera Golafa, which do produce many ſortes of medicinal herbes, for which canſe diuers phiſitions &amp; apothecaries repaire the-ther for ſimples. There is in this country at a place called in the ſpaniſh tongue Suriol, a myne of filtter. And in a place called Aioder there are ſtones found ſtryped with golden vaines. At the promontorie of Finiſtrat are cerraine mynes of iron, though of no abundance. About Segorbie is a quarry out of which marble iu tymes paſt was taken &amp; ſent to Rome. In Piscene Alabaſter is, &amp; in ſundry places great ſtore of Allum, Red-Ocher, Lyme &amp; Chalk. This country yeildeth fyne wool, which (as in ſaid) cometh of the race of cotſold ſheepe tranſported out of England into Spaine by licence of King Edvvard the fourth in the ſite year of his raigne. There is great comoditie made in the country by the making of certaine earthen veſſels which the Spagniards call Pyrocellana.  This country was long inhabited of the Moores, yntil at laſt King Iames after a long ſiege conſtrayned them to leaue the citie of Valencia, out of which there departed at once more than fyfty thowſand in number, who caried with them all their riches, &amp; left the citie voyd, both of people and welth. There is not (as is thought) any corner of the world ſo repleniſhed with godly gardens, abounding with ſuch rare &amp; excellent flowres &amp; herbes, as is this countrie of Valencia. </head></div>
 		</body>
 	</text>
 </TEI>
